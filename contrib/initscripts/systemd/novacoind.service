@@ -1,0 +1,11 @@
+[Unit]
+Description=VibbeCoin daemon serivce
+After=network.target
+
+[Service]
+Type=simple
+User=VibbeCoin
+ExecStart=/opt/VibbeCoin/VibbeCoind
+
+[Install]
+WantedBy=multi-user.target

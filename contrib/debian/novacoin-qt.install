@@ -1,0 +1,5 @@
+VibbeCoin-qt usr/bin
+share/pixmaps/VibbeCoin32.xpm usr/share/pixmaps
+share/pixmaps/VibbeCoin80.xpm usr/share/pixmaps
+debian/VibbeCoin-qt.desktop usr/share/applications
+debian/VibbeCoin-qt.protocol usr/share/kde4/services/

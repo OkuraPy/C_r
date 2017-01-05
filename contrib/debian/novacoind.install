@@ -1,0 +1,2 @@
+debian/bin/VibbeCoind usr/bin
+src/VibbeCoind usr/lib/VibbeCoin

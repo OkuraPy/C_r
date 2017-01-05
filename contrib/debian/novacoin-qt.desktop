@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=VibbeCoin
+Comment=VibbeCoin P2P Cryptocurrency
+Comment[ru]=VibbeCoin, P2P криптовалюта
+Comment[fr]=VibbeCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=VibbeCoin, eşten eşe kriptografik sanal para birimi
+Exec=/usr/bin/VibbeCoin-qt
+Terminal=false
+Type=Application
+Icon=/usr/share/pixmaps/VibbeCoin80.xpm
+MimeType=x-scheme-handler/VibbeCoin;
+Categories=Office;

@@ -1,0 +1,16 @@
+#!/bin/sh
+
+set -e
+
+umask 077
+
+basedir=~/.VibbeCoin
+dbfile="$basedir/DB_CONFIG"
+cfgfile="$basedir/VibbeCoin.conf"
+
+[ -e "$basedir" ] || mkdir "$basedir"
+
+# VibbeCoin does not clean up DB log files by default
+[ -e "$dbfile" ] || echo 'set_flags DB_LOG_AUTOREMOVE' > "$dbfile"
+
+exec /usr/lib/VibbeCoin/VibbeCoin-qt "$@"

@@ -1,0 +1,9 @@
+Building VibbeCoin
+
+See doc/readme-qt.rst for instructions on building VibbeCoin Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of VibbeCoin.
+
+See doc/build-*.txt for instructions on building VibbeCoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of VibbeCoin.
